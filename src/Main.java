@@ -6,5 +6,10 @@ public class Main {
         folderFile.addFile(textFile);
         folderFile.addFile(textFile2);
         folderFile.displayFiles();
+
+        File jpegFile = new JPEGFile("image.JPG");
+        folderFile.addFile(jpegFile);
+
+        folderFile.displayFiles();
     }
 }
